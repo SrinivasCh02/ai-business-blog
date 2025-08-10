@@ -19,6 +19,26 @@
             line-height: 1.6;
         }
         
+        .hero-image {
+            width: 100%;
+            margin-bottom: 40px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            animation: fadeInUp 1s ease-out;
+        }
+        
+        .hero-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+        
+        .hero-image:hover img {
+            transform: scale(1.02);
+        }
+        
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -342,6 +362,10 @@
     </div>
     
     <div class="container">
+        <div class="hero-image">
+            <img src="20250810_1859_AI Integration Mastery_simple_compose_01k2a2g0z4efat2aeb6ja9apkf.png" alt="AI Integration Mastery" />
+        </div>
+        
         <div class="blog-header">
             <div class="header-badge">🤖 AI Strategy Insights</div>
             <h1 class="main-title">Don't Fit Your Business Into a Tool</h1>
